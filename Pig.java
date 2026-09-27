@@ -1,9 +1,10 @@
+package Old_Macdonald;
 public class Pig extends Animal
 {
     private String species;
     private String sound;
     
-    public Pig(species, sound)
+    public Pig(String species, String sound)
     {
         this.species= species;
         this.sound= sound;

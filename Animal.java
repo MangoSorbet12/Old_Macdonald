@@ -5,7 +5,7 @@ public class Animal {
     {
         return "animal sound";
     }
-    public void getType()
+    public String getType()
     {
         return "animal type";
     }
