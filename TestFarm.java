@@ -3,7 +3,7 @@ public class TestFarm
 {
     public static void main (String[] args)
     {
-        /* 
+        
         Cow cow= new Cow("cow", "moo");
         System.out.println("The type "+cow.getType()+" goes "+cow.getSound());
 
@@ -12,9 +12,8 @@ public class TestFarm
 
         Chick chick= new Chick("chick","cluck","cheep");
         System.out.println("The type "+chick.getType()+" goes "+chick.getSound());
-        */
-       Farm farm= new Farm();
-       farm.animalSounds();
+        
+       
  
     }
 }
