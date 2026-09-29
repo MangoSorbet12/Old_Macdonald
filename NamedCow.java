@@ -1,3 +1,4 @@
+//cloning repository mistake (accidentally did it later than intended)
 package Old_Macdonald;
 public class NamedCow extends Cow
 {
@@ -7,14 +8,13 @@ public class NamedCow extends Cow
     {
         super(species, sound);
         this.name= name;
-        species= "cow";
-        sound= "moo";
+        //species= "cow";
+        //sound= "moo";
     }
 
 
     public String getName()
     {
-        name= "Elsie";
         return name;
     }
 }
