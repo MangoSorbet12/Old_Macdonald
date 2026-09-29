@@ -5,6 +5,8 @@ public class Farm
     private Animal[] a = new Animal[3];
         Farm() 
         {
+            //edited this so that the cow also gets a name (casting)
+            //found this on https://www.geeksforgeeks.org/java/class-type-casting-in-java/
             a[0] = new NamedCow("cow","moo","Elsie");
             a[1] = new Chick("chick","cluck","cheep");
             a[2] = new Pig("pig","oink");

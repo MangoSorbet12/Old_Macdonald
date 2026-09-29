@@ -1,17 +1,25 @@
 //this is here because I accidently cloned my Old_Macdonald repository in a already made Old_Macdonald file
 //with the 7 classes (I did the steps in reverse)
 package Old_Macdonald;
+
+/*
+ * Author: Grace Han
+ * 
+ * The purpose of this program is to test overriding methods and making constructors
+ * by making farm animal objects.
+ * 
+ * Resources: https://www.geeksforgeeks.org/java/class-type-casting-in-java/ (used for Farm class)
+ */
 public class TestFarm
 {
     public static void main (String[] args)
     {
     //basically tests whether the constructors for Cow, Pig, and Chick class are working,
     //along with whether their methods work too
-    /* 
-        
+    
+    /*   
         Cow cow= new Cow("cow", "moo");
-        System.out.println("The type "+cow.getType()+" goes "+cow.getSound());
-
+        System.out.println("The type "+cow.getType()+" goes "+cow.getSound()); 
         Pig pig= new Pig ("pig", "oink");
         System.out.println("The type "+pig.getType()+" goes "+pig.getSound());
 

@@ -1,6 +1,5 @@
 //cloned repository too late (already made 7 classes + a file in advance)
 package Old_Macdonald;
-
 public class Chick extends Animal
 {
     private String species="";
@@ -21,7 +20,6 @@ public class Chick extends Animal
     {
         int randomNum= (int)(Math.random()*2)+0;
         String result= "";
-
         if(randomNum==1)
         {
             result= sound1;
@@ -35,7 +33,7 @@ public class Chick extends Animal
 
     }
 
-    //this is also overriding one of the animal methods by simply returning the species put in the chick object's
+     //this is also overriding one of the animal methods by simply returning the species put in the chick object's
     //parameters in the Farm class
     public String getType()
     {
