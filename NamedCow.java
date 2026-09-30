@@ -6,10 +6,10 @@ public class NamedCow extends Cow
 
  public NamedCow(String species, String sound, String name)
     {
+        //using the species and sound variables from the Cow class
         super(species, sound);
         this.name= name;
-        //species= "cow";
-        //sound= "moo";
+
     }
 
 

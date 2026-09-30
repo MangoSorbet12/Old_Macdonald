@@ -28,7 +28,7 @@ public class TestFarm
         Chick chick= new Chick("chick","cluck","cheep");
         System.out.println("The type "+chick.getType()+" goes "+chick.getSound());
     */    
-       
+         
     //creates a Farm object and uses the method from Farm class     
     Farm farm= new Farm();
     farm.animalSounds();
